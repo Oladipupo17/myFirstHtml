@@ -8,209 +8,222 @@
   </head>
   <body>
     <div class="container">
-      <header>
-        <h1>CUSTOMERS UPDATE FORM</h1>
-      </header>
-      <form class="form">
-        <div class="row">
-          <span class="col">
-            <label for="a/c">Account Number</label>
-            <input
-              type="text"
-              id="a/c"
-              name="account number"
-              maxlength="10"
-              required
-            />
-          </span>
-          <span class="col" id="date">
-            <label for="date">Date</label>
-            <input type="date" id="date" name="date" class="input1" />
-          </span>
-        </div>
-        <div class="row">
-          <label for="a/n">Account Name</label>
-          <input type="text" name="account name" long-input id="a/n" />
-        </div>
-        <div class="row">
-          <span class="col">
-            <label for="title">Title (Mr./Mrs./Dr./Chief/Ms.)</label>
-            <input type="text" name="title" id="title" />
-          </span>
-          <span class="col">
-            <label for="married">Status: Married</label>
-            <input type="radio" name="status" id="married" />
-            <label for="single">Single</label>
-            <input type="radio" name="status" id="single" />
-            <label for="divorced">Divorced</label>
-            <input type="radio" name="status" id="divorced" />
-            <label for="separated">Separated</label>
-            <input type="radio" name="status" id="separated" />
-          </span>
-        </div>
-        <div class="row">
-          <span class="col">
-            <label for="number">Phone Numbers</label>
-            <input
-              type="text"
-              id="number"
-              name="number"
-              placeholder="Primary Phone Number"
-            />
-          </span>
-          <span class="col">
-            <input
-              type="text"
-              id="number"
-              name="number"
-              placeholder="Other Phone Numbers"
-            />
-          </span>
-        </div>
-        <div class="row">
-          <span class="col">
-            <label for="mail">E-mail Address</label>
-            <input
-              type="email"
-              id="mail"
-              name="mail"
-              placeholder="Primary Email Address"
-            />
-          </span>
-          <span class="col">
-            <input
-              type="email"
-              id="mail"
-              name="mail"
-              placeholder="Other Email Address"
-            />
-          </span>
-        </div>
-        <div class="row">
-          <span class="col">
-            <label for="dob">Date Of Birth</label>
-            <input type="date" id="dob" name="dob" />
-          </span>
-          <span class="col">
-            <label for="maiden">Mother's Maiden Name</label>
-            <input type="text" id="maiden" name="maiden" />
-          </span>
-        </div>
-        <div class="row">
-          <label for="address">Current Residential Adress</label>
-          <input type="text" id="address" name="address" />
-        </div>
-        <div class="row">
-          <label for="change"
-            >Has your residential address changed since opening the account
-            <b>(Yes/No)</b></label
-          >
-          <input
-            type="text"
-            id="change"
-            name="change"
-            placeholder="If yes, provide current utility bill"
-          />
-        </div>
-        <div class="row">
-          <label for="mandate"
-            >Do you want mandate change on the account(s)<b>(Yes/No)</b></label
-          >
-          <input
-            type="text"
-            id="mandate"
-            name="mandate"
-            placeholder="If yes, you are required to complete new mandate cards"
-          />
-        </div>
-        <div class="row">
-          <span class="col">
-            <label for="occupation">occupation</label>
-            <input type="text" id="occupation" name="occupation" />
-          </span>
-          <span class="col">
-            <label for="position">Position Held</label>
-            <input type="text" id="position" name="position" />
-          </span>
-        </div>
-        <div class="row">
-          <label for="name&ad">Employer's Name and Address</label>
-          <input type="text" id="name&ad" name="name&ad" />
-        </div>
-        <div class="row">
-          <span class="col">
-            <label for="kin">Name of Next of Kin</label>
-            <input type="text" id="kin" name="kin" />
-          </span>
-          <span class="col">
-            <label for="relationship">Relationship</label>
-            <input type="text" id="relationship" name="relationship" />
-          </span>
-        </div>
-        <div class="row">
-          <span class="col">
-            <label for="phone">Phone Number</label>
-            <input type="text" name="phone" id="phone" />
-          </span>
-          <span class="col">
-            <label for="kin address">Address</label>
-            <input type="text" name="address" id="kin address" />
-          </span>
-        </div>
-        <div class="row">
-          <label for="card">Means of Identification: National ID Card</label>
-          <input type="radio" id="card" name="identification" />
-          <label for="passport">International Passport</label>
-          <input type="radio" id="passport" name="identification" />
-          <label for="license">Driver"s License</label>
-          <input type="radio" id="license" name="identification" />
-          <label for="party">Third Party</label>
-          <input type="radio" id="party" name="identification" />
-          <label for="oth">Others</label>
-          <input type="radio" id="oth" name="identification" />
-        </div>
-        <div class="row">
-          <span class="col">
-            <label for="id">ID NO:</label>
-            <input type="text" id="id" name="id" />
-          </span>
-          <span class="col">
-            <label for="Issue">Issue Date</label>
-            <input type="date" id="issue" name="date" />
-          </span>
-          <span class="col">
-            <label for="expiry">Expiry Date</label>
-            <input type="date" id="expiry" name="date" />
-          </span>
-        </div>
-        <div class="row">
-          <span class="col">
-            <label for="country">Country of Issuance</label>
-            <input type="text" id="country" name="country" />
-          </span>
-          <span class="col">
-            <label for="permit">Residence/Work Permit No</label>
-            <input
-              type="text"
-              id="permit"
-              name="permit"
-              placeholder="For Non-Nigerians Only"
-            />
-          </span>
-        </div>
-        <div class="row">
-          <h2>DECLARATION</h2>
-          <p>
-            <b
-              >I/We hereby declare that the above particulars are true and
-              correct. I also authorize the bank to reactivate my/our accounts
-              if required.</b
+      <div class="content">
+        <header>
+          <h1>CUSTOMERS UPDATE FORM</h1>
+        </header>
+        <form class="form">
+          <div class="row">
+            <span class="col">
+              <label for="a/c">Account Number</label>
+              <input
+                type="text"
+                id="a/c"
+                name="account number"
+                maxlength="10"
+                required
+              />
+            </span>
+            &nbsp; &nbsp; &nbsp;
+
+            <span class="col" id="date">
+              <label for="date">Date</label>
+              <input type="date" id="date" name="date" class="input1" />
+            </span>
+          </div>
+          <div class="row">
+            <label for="a/n">Account Name</label>
+            <input type="text" name="account name" long-input id="a/n" />
+          </div>
+          <div class="row">
+            <span class="col">
+              <label for="title">Title (Mr./Mrs./Dr./Chief/Ms.)</label>
+              <input type="text" name="title" id="title" />
+            </span>
+            <span class="col">
+              <label for="married">Status: Married</label>
+              <input type="radio" name="status" id="married" />
+              <label for="single">Single</label>
+              <input type="radio" name="status" id="single" />
+              <label for="divorced">Divorced</label>
+              <input type="radio" name="status" id="divorced" />
+              <label for="separated">Separated</label>
+              <input type="radio" name="status" id="separated" />
+            </span>
+          </div>
+          <div class="row">
+            <span class="col">
+              <label for="number">Phone Numbers</label>
+              <input
+                type="text"
+                id="number"
+                name="number"
+                placeholder="Primary Phone Number"
+              />
+            </span>
+            <span class="col">
+              <input
+                type="text"
+                id="number"
+                name="number"
+                placeholder="Other Phone Numbers"
+              />
+            </span>
+          </div>
+          <div class="row">
+            <span class="col">
+              <label for="mail">E-mail Address</label>
+              <input
+                type="email"
+                id="mail"
+                name="mail"
+                placeholder="Primary Email Address"
+              />
+            </span>
+            <span class="col">
+              <input
+                type="email"
+                id="mail"
+                name="mail"
+                placeholder="Other Email Address"
+              />
+            </span>
+          </div>
+          <div class="row">
+            <span class="col">
+              <label for="dob">Date Of Birth</label>
+              <input type="date" id="dob" name="dob" />
+            </span>
+            <span class="col">
+              <label for="maiden">Mother's Maiden Name</label>
+              <input type="text" id="maiden" name="maiden" />
+            </span>
+          </div>
+          <div class="row">
+            <label for="address">Current Residential Adress</label>
+            <input type="text" id="address" name="address" />
+          </div>
+          <div class="row">
+            <label for="change"
+              >Has your residential address changed since opening the account
+              <b>(Yes/No)</b></label
             >
-          </p>
-        </div>
-        <div class="row"></div>
-        <div class="row"></div>
-      </form>
+            <input
+              type="text"
+              id="change"
+              name="change"
+              placeholder="If yes, provide current utility bill"
+            />
+          </div>
+          <div class="row">
+            <label for="mandate"
+              >Do you want mandate change on the account(s)<b
+                >(Yes/No)</b
+              ></label
+            >
+            <input
+              type="text"
+              id="mandate"
+              name="mandate"
+              placeholder="If yes, you are required to complete new mandate cards"
+            />
+          </div>
+          <div class="row">
+            <span class="col">
+              <label for="occupation">occupation</label>
+              <input type="text" id="occupation" name="occupation" />
+            </span>
+            <span class="col">
+              <label for="position">Position Held</label>
+              <input type="text" id="position" name="position" />
+            </span>
+          </div>
+          <div class="row">
+            <label for="name&ad">Employer's Name and Address</label>
+            <input type="text" id="name&ad" name="name&ad" />
+          </div>
+          <div class="row">
+            <span class="col">
+              <label for="kin">Name of Next of Kin</label>
+              <input type="text" id="kin" name="kin" />
+            </span>
+            <span class="col">
+              <label for="relationship">Relationship</label>
+              <input type="text" id="relationship" name="relationship" />
+            </span>
+          </div>
+          <div class="row">
+            <span class="col">
+              <label for="phone">Phone Number</label>
+              <input type="text" name="phone" id="phone" />
+            </span>
+            <span class="col">
+              <label for="kin address">Address</label>
+              <input type="text" name="address" id="kin address" />
+            </span>
+          </div>
+          <div class="row">
+            <label for="card">Means of Identification: National ID Card</label>
+            <input type="radio" id="card" name="identification" />
+            <label for="passport">International Passport</label>
+            <input type="radio" id="passport" name="identification" />
+            <label for="license">Driver"s License</label>
+            <input type="radio" id="license" name="identification" />
+            <label for="party">Third Party</label>
+            <input type="radio" id="party" name="identification" />
+            <label for="oth">Others</label>
+            <input type="radio" id="oth" name="identification" />
+          </div>
+          <div class="row">
+            <span class="col">
+              <label for="id">ID NO:</label>
+              <input type="text" id="id" name="id" />
+            </span>
+            <span class="col">
+              <label for="Issue">Issue Date</label>
+              <input type="date" id="issue" name="date" />
+            </span>
+            <span class="col">
+              <label for="expiry">Expiry Date</label>
+              <input type="date" id="expiry" name="date" />
+            </span>
+          </div>
+          <div class="row">
+            <span class="col">
+              <label for="country">Country of Issuance</label>
+              <input type="text" id="country" name="country" />
+            </span>
+            <span class="col">
+              <label for="permit">Residence/Work Permit No</label>
+              <span>
+              <input
+                type="text"
+                id="permit"
+                name="permit"
+                
+                placeholder="For Non-Nigerians Only"
+              /><br/>
+              <label style="margin-left: 32rem; font-size: .8rem;">For Non-Nigerians Only</label>
+            </span>
+            </span>
+          </div>
+          <div class="row">
+            <h2>DECLARATION</h2>
+            <p>
+              <b
+                >I/We hereby declare that the above particulars are true and
+                correct. I also authorize the bank to reactivate my/our accounts
+                if required.</b
+              >
+            </p>
+            <input type="text" >
+            <input type="text">
+            <input type="text">
+          </div>
+          <div class="row"></div>
+          <div class="row"></div>
+        </form>
+      </div>
     </div>
   </body>
 </html>
