@@ -24,7 +24,7 @@
                 required
               />
             </span>
-            &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
             <span class="col" id="date">
               <label for="date">Date</label>
@@ -33,7 +33,13 @@
           </div>
           <div class="row">
             <label for="a/n">Account Name</label>
-            <input type="text" name="account name" long-input id="a/n" />
+            <input
+              class="long"
+              type="text"
+              name="account name"
+              long-input
+              id="a/n"
+            />
           </div>
           <div class="row">
             <span class="col">
@@ -61,6 +67,7 @@
                 placeholder="Primary Phone Number"
               />
             </span>
+            &nbsp;&nbsp;&nbsp;
             <span class="col">
               <input
                 type="text"
@@ -80,6 +87,7 @@
                 placeholder="Primary Email Address"
               />
             </span>
+            &nbsp;&nbsp;&nbsp;
             <span class="col">
               <input
                 type="email"
@@ -101,7 +109,7 @@
           </div>
           <div class="row">
             <label for="address">Current Residential Adress</label>
-            <input type="text" id="address" name="address" />
+            <input class="longer" type="text" id="address" name="address" />
           </div>
           <div class="row">
             <label for="change"
@@ -130,7 +138,7 @@
           </div>
           <div class="row">
             <span class="col">
-              <label for="occupation">occupation</label>
+              <label for="occupation">Occupation</label>
               <input type="text" id="occupation" name="occupation" />
             </span>
             <span class="col">
@@ -140,7 +148,7 @@
           </div>
           <div class="row">
             <label for="name&ad">Employer's Name and Address</label>
-            <input type="text" id="name&ad" name="name&ad" />
+            <input class="longer" type="text" id="name&ad" name="name&ad" />
           </div>
           <div class="row">
             <span class="col">
@@ -159,7 +167,12 @@
             </span>
             <span class="col">
               <label for="kin address">Address</label>
-              <input type="text" name="address" id="kin address" />
+              <input
+                class="longer"
+                type="text"
+                name="address"
+                id="kin address"
+              />
             </span>
           </div>
           <div class="row">
@@ -196,29 +209,40 @@
             <span class="col">
               <label for="permit">Residence/Work Permit No</label>
               <span>
-              <input
-                type="text"
-                id="permit"
-                name="permit"
-                
-                placeholder="For Non-Nigerians Only"
-              /><br/>
-              <label style="margin-left: 32rem; font-size: .8rem;">For Non-Nigerians Only</label>
-            </span>
+                <input
+                  type="text"
+                  id="permit"
+                  name="permit"
+                  placeholder="For Non-Nigerians Only"
+                /><br />
+              </span>
             </span>
           </div>
           <div class="row">
             <h2>DECLARATION</h2>
             <p>
-              <b
+              <strong
                 >I/We hereby declare that the above particulars are true and
                 correct. I also authorize the bank to reactivate my/our accounts
-                if required.</b
+                if required.</strong
               >
             </p>
-            <input type="text" >
-            <input type="text">
-            <input type="text">
+            <span class="col">
+              <input
+                style="border-top: 1rem"
+                type="text"
+                placeholder="Customer's Signature"
+              />
+            </span>
+
+            <span class="col">
+              <label for="date">Date</label>
+              <input type="date" id="date" name="date" />
+            </span>
+          </div>
+          <div class="row">
+            <h1>FOR BANK'S USE ONLY</h1>
+            <p>I hereby certify the request good for processing</p>
           </div>
           <div class="row"></div>
           <div class="row"></div>
