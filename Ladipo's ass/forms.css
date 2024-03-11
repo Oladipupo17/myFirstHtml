@@ -1,7 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.container{
+  padding: 50px;
 }
 header,
 h1 {
@@ -9,12 +16,16 @@ h1 {
   color: white;
   padding-left: 2%;
   font-size: small;
+  margin-right: 100px;
+  font-family: Montserrat;
 }
 h2 {
   background-color: black;
   color: white;
   padding-left: 2%;
   font-size: smaller;
+  margin-right:100px ;
+  margin-left: 0px;
 }
 label {
   margin-bottom: 10px;
@@ -28,11 +39,22 @@ label {
 }
 .row {
   width: 100%;
-  padding: 2px 4px;
+  padding: 2px;
 }
 .long {
   width: 600px;
 }
 .longer {
   width: 800px;
+}
+.img{
+  padding-left: 80%;
+  
+}
+
+image{
+  height: 1rem;
+}
+.certification{
+  margin-top: 20px
 }
